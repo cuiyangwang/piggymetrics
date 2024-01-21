@@ -1,5 +1,4 @@
-FROM mongo:3
-MAINTAINER Alexander Lukyanchikov <sqshq@sqshq.com>
+FROM mongo:latest
 
 ADD init.sh /init.sh
 ADD ./dump /
