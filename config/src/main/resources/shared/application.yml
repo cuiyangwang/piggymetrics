@@ -25,3 +25,9 @@ security:
 spring:
   rabbitmq:
     host: rabbitmq
+
+# Expose all actuator endpoints
+management:
+  web:
+    exposure:
+      include: "*"
