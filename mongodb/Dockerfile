@@ -1,4 +1,4 @@
-FROM mongo:latest
+FROM mongo:3
 
 ADD init.sh /init.sh
 ADD ./dump /
